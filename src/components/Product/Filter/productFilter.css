@@ -1,0 +1,10 @@
+.wrapper_filter {
+    background-color: black;
+    color: #eee;
+    /* top/bottom padding: 20px, left/right padding: 15px */
+    padding: 20px 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
