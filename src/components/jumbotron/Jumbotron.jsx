@@ -1,9 +1,9 @@
 import React from 'react';
 /* - Styles: _______________________________ */
-import './home.css';
+import './jumbotron.css';
 /*__________________________________________ */
 
-const Home = () => {
+const Jumbotron = () => {
   return (
     <>
       <div className="jumbotron">
@@ -17,4 +17,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Jumbotron

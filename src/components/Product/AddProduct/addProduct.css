@@ -1,0 +1,12 @@
+.wrapper_add_product {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Center vertically */
+    margin-top: 20px;
+}
+
+.add_product {
+    width: 70%;
+    padding: 10px;
+}

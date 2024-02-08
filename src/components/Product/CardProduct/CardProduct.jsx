@@ -1,14 +1,15 @@
 import React from 'react'
 /* - Styles ________________________________ */
-import './cardItem.css';
+import './cardProduct.css';
 /* - React-bootstrap _______________________ */
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 /*__________________________________________ */
 
-const CardItem = () => {
+const CardProduct = () => {
     return (
-        <>
+        <Link to={'/product'}>
             {/* <Card style={{ width: '18rem', height: '17rem' }}> */}
             <Card className='card_item' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
@@ -21,8 +22,8 @@ const CardItem = () => {
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card>
-        </>
+        </Link>
     )
 }
 
-export default CardItem
+export default CardProduct;

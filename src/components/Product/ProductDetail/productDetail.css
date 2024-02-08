@@ -1,0 +1,14 @@
+.product-detail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    min-height: 70vh;
+
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
